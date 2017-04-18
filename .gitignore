@@ -1,0 +1,5 @@
+# input and output files
+*.in
+*.out
+
+/judges/topcoder/
