@@ -2,4 +2,6 @@
 *.in
 *.out
 
-/judges/topcoder/
+# topcoder
+/judges/topcoder/*
+!/judges/topcoder/template.cpp
