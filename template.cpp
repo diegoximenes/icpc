@@ -2,6 +2,7 @@
 using namespace std;
 
 typedef long long ll;
+#define fast_io ios::sync_with_stdio(false)
 #define pb push_back
 #define mp make_pair
 #define fi first
@@ -17,7 +18,6 @@ inline int cmp_double(double x, double y, double tol = EPS) {
 }
 
 int main() {
-    ios::sync_with_stdio(false);
 
     return 0;
 }
