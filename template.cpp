@@ -7,8 +7,8 @@ typedef long long ll;
 #define mp make_pair
 #define fi first
 #define se second
-#define INF 0x3f3f3f3f
-#define INFLL 0x3f3f3f3f3f3f3f3fLL
+const int INF = 0x3f3f3f3f;
+const ll INFLL = 0x3f3f3f3f3f3f3f3fLL;
 const double PI = acos(-1);
 const double EPS = 1e-9;
 
