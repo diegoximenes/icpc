@@ -9,9 +9,13 @@ typedef long long ll;
 #define se second
 
 #ifdef LOCAL
-    #define debug(...) { fprintf(stderr, __VA_ARGS__); fflush(stderr); }
+#define debug(...)                                                             \
+    {                                                                          \
+        fprintf(stderr, __VA_ARGS__);                                          \
+        fflush(stderr);                                                        \
+    }
 #else
-    #define debug(...)
+#define debug(...)
 #endif
 
 const int INF = 0x3f3f3f3f;
@@ -24,7 +28,7 @@ inline int cmp_double(double x, double y, double tol = EPS) {
     return (x <= y + tol) ? (x + tol < y) ? -1 : 0 : 1;
 }
 
-template<class T> inline void print_array(T *v, int n) {
+template <class T> inline void print_array(T *v, int n) {
     if (n > 0) {
         cout << v[0];
     }
@@ -34,7 +38,7 @@ template<class T> inline void print_array(T *v, int n) {
     cout << endl;
 }
 
-template<class T> inline void read_array(T *v, int n, int start = 0) {
+template <class T> inline void read_array(T *v, int n, int start = 0) {
     for (int i = start; i < start + n; ++i) {
         cin >> v[i];
     }
@@ -47,7 +51,6 @@ int main() {
     int tc;
     cin >> tc;
     while (tc--) {
-
     }
 
     return 0;
