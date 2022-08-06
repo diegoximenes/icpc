@@ -1,4 +1,4 @@
 BasedOnStyle: Google
 IndentWidth: 4
 AllowShortFunctionsOnASingleLine: None
-AllowShortIfStatementsOnASingleLine: SIS_Never
+AllowShortIfStatementsOnASingleLine: Never
