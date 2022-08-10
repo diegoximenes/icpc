@@ -46,6 +46,17 @@ inline void read_array(T *v, int n, int start = 0) {
     }
 }
 
+template <class T>
+inline void print_vector(vector<T> &v) {
+    if (!v.empty()) {
+        cout << v[0];
+    }
+    for (int i = 1; i < (int) v.size(); ++i) {
+        cout << " " << v[i];
+    }
+    cout << endl;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
