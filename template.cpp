@@ -57,6 +57,15 @@ inline void print_vector(vector<T> &v) {
     cout << endl;
 }
 
+template <class T>
+inline vector<T> read_vector(int n) {
+    vector<T> v(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> v[i];
+    }
+    return v;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
