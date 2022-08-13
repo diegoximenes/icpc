@@ -47,7 +47,7 @@ inline void read_array(T *v, int n, int start = 0) {
 }
 
 template <class T>
-inline void print_vector(vector<T> &v) {
+inline void print_vector(const vector<T> &v) {
     if (!v.empty()) {
         cout << v[0];
     }
@@ -58,12 +58,10 @@ inline void print_vector(vector<T> &v) {
 }
 
 template <class T>
-inline vector<T> read_vector(int n) {
-    vector<T> v(n);
-    for (int i = 0; i < n; ++i) {
+inline void read_vector(vector<T> &v, int n, int start = 0) {
+    for (int i = start; i < start + n; ++i) {
         cin >> v[i];
     }
-    return v;
 }
 
 int main() {
