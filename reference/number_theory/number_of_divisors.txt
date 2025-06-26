@@ -1,0 +1,5 @@
+The number of divisors of a highly composite number n can be approximated to
+O(n ^ (1/3)).
+
+A highly composite number is a positive integer which has more divisors than
+all smaller positive integers.
