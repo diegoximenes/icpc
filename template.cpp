@@ -8,16 +8,6 @@ typedef long long ll;
 #define fi first
 #define se second
 
-#ifdef LOCAL
-#define debug(...)                    \
-    {                                 \
-        fprintf(stderr, __VA_ARGS__); \
-        fflush(stderr);               \
-    }
-#else
-#define debug(...)
-#endif
-
 const int INF = 0x3f3f3f3f;
 const ll INFLL = 0x3f3f3f3f3f3f3f3fLL;
 const double PI = acos(-1);
